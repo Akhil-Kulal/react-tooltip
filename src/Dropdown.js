@@ -1,5 +1,6 @@
 import React from "react";
 import "./assets/Dropdown.css";
+import Button from "./Button";
 
 class Dropdown extends React.Component {
   render() {
@@ -12,6 +13,7 @@ class Dropdown extends React.Component {
           <option value="left">Left</option>
           <option value="right">Right</option>
         </select>
+        <Button />
       </div>
     );
   }
