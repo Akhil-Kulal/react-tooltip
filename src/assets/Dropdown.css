@@ -1,0 +1,14 @@
+.drop-down {
+  width: 200px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background-color: rgb(168, 196, 224);
+  color: rgb(26, 20, 20);
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2rem;
+  border-radius: 4px;
+}
