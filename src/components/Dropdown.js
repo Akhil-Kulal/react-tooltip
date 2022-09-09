@@ -1,6 +1,6 @@
 import React from "react";
-import "./assets/App.css";
-import "./assets/Dropdown.css";
+import "../assets/App.css";
+import "../assets/Dropdown.css";
 import Button from "./Button";
 
 class Dropdown extends React.Component {

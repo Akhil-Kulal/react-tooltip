@@ -1,6 +1,6 @@
 import React from "react";
-import "./assets/App.css";
-import "./assets/Button.css";
+import "../assets/App.css";
+import "../assets/Button.css";
 
 class Button extends React.Component {
   constructor(props) {

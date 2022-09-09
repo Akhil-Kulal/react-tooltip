@@ -1,6 +1,6 @@
 import React from "react";
 import "./assets/App.css";
-import Dropdown from "./Dropdown";
+import Dropdown from "./components/Dropdown";
 
 class App extends React.Component {
   render() {
