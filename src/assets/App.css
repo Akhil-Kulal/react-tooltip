@@ -1,3 +1,10 @@
+body {
+  background-color: antiquewhite;
+}
+
 .heading {
   text-align: center;
+  margin-top: 7rem;
+  font-size: 50px;
+  color: rgb(61, 41, 14);
 }

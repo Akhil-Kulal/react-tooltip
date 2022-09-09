@@ -1,13 +1,93 @@
+/* style for button */
 button {
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: tomato;
+  background-color: rgb(211, 71, 46);
   border: none;
   outline: none;
   color: whitesmoke;
-  width: 120px;
-  height: 30px;
+  width: 140px;
+  height: 40px;
   border-radius: 2px;
+}
+
+button span {
+  font-size: 16px;
+}
+
+/* tooltip box */
+.left,
+.top,
+.bottom,
+.right {
+  width: 100px;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  border-radius: 8px;
+  text-align: center;
+}
+.left {
+  left: -105px;
+  top: 0%;
+}
+
+.top {
+  left: 15%;
+  top: -45px;
+}
+
+.bottom {
+  left: 15%;
+  top: 45px;
+}
+
+.right {
+  left: 145px;
+  top: 0%;
+}
+
+/* tooltip arrow */
+.bottom::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+.top::after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+.right::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+.left::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent black;
 }
